@@ -8,8 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/attendees")
 public class AttendeeController {
+    
     @GetMapping
     public ResponseEntity<String> getTeste(){
-        return ResponseEntity.ok("success");
+        return ResponseEntity.ok("sucesso!");
     }
 }

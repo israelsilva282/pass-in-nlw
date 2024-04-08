@@ -23,7 +23,7 @@ import rocketseat.com.passin.domain.attendee.Attendee;
 @AllArgsConstructor
 @NoArgsConstructor
 public class CheckIn {
-
+    
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;

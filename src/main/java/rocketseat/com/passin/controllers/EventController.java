@@ -23,7 +23,7 @@ import rocketseat.com.passin.services.EventService;
 public class EventController {
     private final EventService eventService;
     private final AttendeeService attendeeService;
-
+    
     @GetMapping("/{id}")
     public ResponseEntity<EventResponseDTO> getEvent(@PathVariable String id){
         EventResponseDTO event = this.eventService.getEventDetail(id);
